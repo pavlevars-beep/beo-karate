@@ -25,19 +25,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-40 border-b border-black/5 bg-white/95 backdrop-blur">
       <div className="container-bks flex h-16 items-center justify-between gap-4">
-        <Link to="/" className="flex items-center gap-2" onClick={() => setOpen(false)}>
-          <span className="grid h-9 w-9 place-items-center rounded-lg bg-bks-blue text-white">
-            <svg viewBox="0 0 64 64" className="h-6 w-6" aria-hidden>
-              <path d="M14 46 L32 12 L50 46 Z" fill="#c8102e" />
-              <circle cx="32" cy="40" r="5" fill="#fff" />
-            </svg>
-          </span>
-          <span className="leading-tight">
-            <span className="block text-sm font-extrabold text-bks-blue">Beogradski</span>
-            <span className="block text-xs font-semibold tracking-wide text-bks-ink/70">
-              KARATE SAVEZ
-            </span>
-          </span>
+        <Link to="/" className="flex items-center" onClick={() => setOpen(false)}>
+          <img
+            src="/logo.svg"
+            alt="Beogradski karate savez"
+            className="h-12 w-auto sm:h-14"
+          />
         </Link>
 
         <nav className="hidden items-center xl:flex">

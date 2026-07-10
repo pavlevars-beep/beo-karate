@@ -30,7 +30,14 @@ export default function Footer() {
 
       <div className="container-bks grid gap-10 py-12 md:grid-cols-4">
         <div className="md:col-span-2">
-          <div className="mb-3 text-lg font-extrabold">Beogradski karate savez</div>
+          <div className="mb-4 flex items-center gap-3">
+            <img src="/logo-mark-light.svg" alt="" className="h-12 w-auto" />
+            <div className="text-lg font-extrabold leading-tight">
+              Beogradski
+              <br />
+              karate savez
+            </div>
+          </div>
           <p className="max-w-md text-sm text-white/75">
             Zajednica klubova koja kroz karate razvija disciplinu, karakter i sportski duh
             dece i mladih. Centralno mesto beogradskog karatea za roditelje, klubove,

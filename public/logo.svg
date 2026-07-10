@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="70 132 500 274" role="img" aria-label="Beogradski karate savez">
+  <!-- crvene pesnice / stubovi -->
+  <rect x="118" y="150" width="58" height="148" rx="29" fill="#F81E12"/>
+  <rect x="190" y="140" width="58" height="152" rx="29" fill="#F81E12"/>
+  <rect x="262" y="152" width="58" height="120" rx="29" fill="#F81E12"/>
+  <rect x="334" y="176" width="58" height="88"  rx="29" fill="#F81E12"/>
+  <!-- crna baza -->
+  <rect x="78" y="325" width="134" height="67" rx="33.5" fill="#111111"/>
+  <!-- tekst -->
+  <g fill="#111111" font-family="Arial, Helvetica, sans-serif" font-weight="800" letter-spacing="1.5">
+    <text x="226" y="356" font-size="39">БЕОГРАДСКИ</text>
+    <text x="226" y="392" font-size="39">КАРАТЕ САВЕЗ</text>
+  </g>
+</svg>
